@@ -1,4 +1,6 @@
 body {
+
+    background-color: gray;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -23,18 +25,21 @@ body {
     max-width: 150px;
     height: auto;
     margin: 0 10px;
+    border-radius: 1rem;
 }
 
 #text-1 {
+    font-size: 70px;
     text-align: center;
 }
 
 #text-1 h1 {
-    font-size: 24px;
+
     margin: 20px 0;
 }
 
 #text-2 {
+    font-size: medium;
     text-align: center;
 }
 
