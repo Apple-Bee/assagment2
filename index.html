@@ -4,20 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/sylesheet/styles.css">
 </head>
 <body>
     <!-- Logo -->
-    <img src="/material/logo.png" alt="Logo">
+    <img src="/material/logo.png" alt="Logo" class="logo">
 
-    <!-- Address Form -->
-    <form>
-        <label for="address">Address:</label><br>
-        <input type="text" id="address" name="address" placeholder="Enter your address"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <!-- Picture Container for Side-by-Side Pictures -->
+    <div class="picture-container">
+        <!-- Picture 1 -->
+        <img src="/material/pic 1.jpg" alt="Picture 1" class="picture">
+        <!-- Picture 2 -->
+        <img src="/material/pic 2.jpg" alt="Picture 2" class="picture">
+    </div>
 
-    <!-- Two More Pictures -->
-    <img src="material/pic 1.jpg" alt="Picture 1">
-    <img src="/material/pic 2.jpg" alt="Picture 2">
+    <!-- Placeholder for Text Content -->
+    <div id="text-1">
+        <!-- Text content will be inserted here dynamically -->
+        <h1>Headline</h1>
+    </div>
+
+    <!-- Text 2 -->
+    <div id="text-2">
+        <!-- Text content will be inserted here dynamically -->
+        <p>Some information text...</p>
+    </div>
+
+    <!-- Text 3 -->
+    <div id="text-3">
+        <!-- Text content will be inserted here dynamically -->
+        <footer>
+            <p>123 Street Name,</p>
+            <p>City, Country,</p>
+            <p>Zip code</p>
+        </footer>
+    </div>
+    <p>Click the button below to download the "material" folder:</p>
+    <a href="/path/to/material.zip" download="material.zip">
+        <button>Download Material</button>
+    </a>
+
+    <!-- JavaScript to Load Text Content -->
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+

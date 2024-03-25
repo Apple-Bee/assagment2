@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.picture-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    margin: 20px auto;
+}
+
+.picture {
+    max-width: 150px; /* Set maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Add some space between pictures */
+}
+
+#text-1 {
+    text-align: center;
+}
+
+#text-1 h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#text-2 {
+    text-align: center;
+}
+
+#text-2 p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#text-3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#text-3 footer {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#text-3 footer p {
+    margin: 5px 0;
+}
+
+
